@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+::-webkit-scrollbar {
+    background-color: #515151;
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+}
+
+
+.main {
+
+    background-color: #000;
+    padding-bottom: 80px;
+
+}
+
+
+.header_section {
+
+    background-color: #ffcb04;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.menu {
+    width: 67%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.index {
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo p {
+
+    color: #000;
+    width: 128px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+
+}
+
+.logo img {
+
+    height: 70px;
+
+}
+
+
+.menu_right {
+    font-family: roboto;
+    display: flex;
+    padding: 25px 15px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+.b2b {
+    background-color: #000;
+    color: #ffcb04;
+    border: 1px solid;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 25px;
+
+
+}
+
+.submit {
+    background-color: #ffcb04;
+    color: #000;
+    border: 1px solid black;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding: 8px 30px;
+}
+
+.language {
+    -webkit-appearance: none;
+    border: none;
+    width: 30px;
+    background-color: #ffcb04;
+    font-size: larger;
+    margin-left: 5px;
+    margin-right: -5px;
+}
+
+
+.sticy_form {
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 106px;
+    background-color: #111111;
+    position: sticky;
+    top: 0;
+    margin: auto;
+}
+
+.sticy_form div {
+
+    margin: 0 15px;
+    width: 20%;
+}
+
+.input_name {
+    border: 2px solid grey;
+    background-color: white;
+    color: #000;
+    font-size: medium;
+    width: 100%;
+    padding: 12px;
+
+
+}
+
+.input_email {
+    border: 2px solid grey;
+    background-color: white;
+    color: #000;
+    font-size: medium;
+    width: 100%;
+    padding: 12px;
+
+}
+
+
+.input_name::placeholder {
+    color: #000000;
+}
+
+.input_email::placeholder {
+    color: #000000;
+}
+
+.button_submit {
+
+    width: 100%;
+    text-align: center;
+    background-color: #ffcb04;
+    color: #000;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 12px;
+
+
+
+}
+
+.input_name:focus {
+    border: 4px solid #ffcb04;
+    ;
+}
+
+.input_email:focus {
+    border: 4px solid #ffcb04;
+    ;
+}
+
+.image_sport {
+    width: 67%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.cards {
+    display: flex;
+    margin: auto;
+    gap: 32px;
+    width: 66%;
+    margin-top: 40px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.cards img {
+    width: 100%;
+    position: relative;
+
+
+}
+
+.cards a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+
+
+}
+
+.cards p {
+    margin-top: -20px;
+}
+
+
+
+
+.play_button {
+    position: absolute;
+    top: -5.2%;
+    right: -44%;
+    height: 20px;
+
+}
+
+.devices {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 57%;
+    margin-top: 50px;
+}
+
+.devices_img {
+    margin: auto;
+}
+
+.devices_img img {
+    width: 320px;
+}
+
+.devices_text {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+    letter-spacing: -1px;
+}
+
+.app_link {
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.app_link img {
+    height: 40px;
+}
+
+.social_media_ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 10px;
+    list-style: none;
+}
+
+.help_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 67%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #090909;
+}
+
+
+.help_center div {
+    align-items: center;
+    margin-top: 20px;
+}
+
+.help_center_link {
+    color: #ffcb04;
+    text-decoration: none;
+    font-size: 1.4em;
+    letter-spacing: -1px;
+
+}
+
+.kunye {
+    text-decoration: none;
+    color: white;
+
+}
